@@ -1,0 +1,22 @@
+{
+  "name": "forkify",
+  "version": "1.0.0",
+  "description": "Receipe maker",
+  "default": "index.html",
+  "scripts": {
+    "start": "parcel index.html",
+    "build": "parcel build index.html --dist-dir ./dist"
+  },
+  "author": "Rakesh BB",
+  "license": "ISC",
+  "devDependencies": {
+    "@parcel/transformer-sass": "^2.8.2",
+    "core-js": "^2.5.7",
+    "parcel": "^2.8.2"
+  },
+  "dependencies": {
+    "fractional": "^1.0.0",
+    "regenerator-runtime": "^0.13.9",
+    "sass": "^1.55.0"
+  }
+}
